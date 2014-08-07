@@ -21,7 +21,7 @@
     "istanbul": "0.3.0",
     "mocha": "~1.21.0",
     "should": "~4.0.4",
-    "supertest": "~0.13.0"
+    "supertest": "kompot/supertest"
   },
   "engines": {
     "node": ">= 0.8"
