@@ -31,7 +31,7 @@ var parsersDir = path.join(__dirname, 'lib', 'types')
 fs.readdirSync(parsersDir).forEach(function onfilename(filename) {
   if (!/\.js$/.test(filename)) return
 
-  var loc = path.resolve(parsersDir, filename)
+  var loc = './' + path.join('lib', 'types', filename)
   var mod
   var name = path.basename(filename, '.js')
 
